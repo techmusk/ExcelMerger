@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Techmusk-Utility-tool</title>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Roboto:wght@100;300&display=swap");
+      body {
+        font-family: Roboto,Verdana, Geneva, Tahoma, sans-serif;
+        height: 100vh;
+        width: 100%;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        overflow-x: hidden;
+        background: rebeccapurple;
+      }
+      header{
+        margin:30px;
+        height:150px;
+      }
+     h1, h3
+      {
+        color: white;
+       
+      }
+      .main{
+        height: 600px;
+         }
+        .service{
+          margin-top: 50px;
+          color: white;
+          height: 400px;
+        }
+        footer{
+          margin-top: 50px;
+          background-color: #fff !important;
+        }
+    </style>
+  </head>
+  <body>
+    <header class="mb-auto center">
+    <div class="row">
+      <div class="col-2">  <img src="https://www.techmusk.in/assets/img/hero-logo.png">   </div>
+    
+     <div class="col-10">
+     <center> <h1>Techmusk-Utility-tool</h1></center>
+        <marquee> <h3>Techmusk Excel merger Utility</h3></marquee>
+     </div>
+     </div>
+    </header>
+    <div class="main">
+    <div class="container">
+      <form action="/upload" method="post" enctype="multipart/form-data">
+        <div class="card">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-12 mb-5">
+                <label for="master_file">Select Master File</label>
+                <input
+                  style="float: right"
+                  accept="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+                  type="file"
+                  name="master"
+                  id="master_file"
+                />
+              </div>
+              <div class="col-12 mb-5">
+                <label for="append_files">Select Append Files</label>
+                <input
+                  style="float: right"
+                  accept="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+                  type="file"
+                  name="append"
+                  multiple
+                  id="append_files"
+                />
+              </div>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn w-100 btn-primary">
+                Submit
+              </button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+
+  <div class="container">
+    <div class="service">
+    <h4>Services offer</h4><hr>
+    <table class="table table-sm table-light">
+      <thead>
+        <tr>
+          <th>Development</th>   
+          <th>Security</th>
+          <th>Product</th>
+          <th>Training</th>
+        </tr>
+      </thead>
+      <tr class="table-primary">
+        <td>Website Development</td>
+        <td>Antivirus</td>
+        <td>Gate Entry Software</td>
+        <td>Full Stack Devlopment</td>
+      </tr>
+      <tr class="table-primary">
+        <td>Mobile App Development</td>
+        <td>DLP Solution</td>
+        <td>Customize ERP Software</td>
+        <td>MERN StackDevlopment</td>
+      </tr>
+      <tr class="table-primary">
+        <td>Utility software Development</td>
+        <td>Email Security</td>
+        <td>Digital Profile</td>
+        <td>E-Accounting</td>
+      </tr>
+      <tr class="table-primary">
+        <td>E-commerce website</td>
+        <td>Encryption</td>
+        <td>SEO/ Digital marketing</td>
+        <td>Computer Programming Language</td>
+      </tr>
+      <tr class="table-primary">
+        <td>Game Development</td>
+        <td>Firewall</td>
+        <td>Poster Desiging</td>
+        <td>Develpment tools</td>
+      </tr>
+    </table>
+    <h4>contact us:</h4>
+    <h2>Deepak Jha - +91-9654868012, +91-9555771006</h2></br> 
+    <h4>Email - <a class="text-white" href='mailto:info@techmusk.in'>info@techmusk.in</a>, <a class="text-white" href="mailto:techmuskpvt@gmail.com">techmuskpvt@gmail.com</a>
+    </h4>
+  </div>
+</div>
+<footer class="text-center text-lg-start">
+  <!-- Copyright -->
+  <div class="text-center p-3">
+    © 2022 Copyright:
+    <a class="text-dark" href="https://techmusk.in/">Techmusk<img src="https://www.techmusk.in/assets/img/favicon.png"></a>
+  </div>
+  <!-- Copyright -->
+</footer>
+  </body>
+
+</html>
